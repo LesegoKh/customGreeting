@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Created by: Lesego Khunou (Front-End Developer)-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalized Greeting</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+
+    section {
+        height:110px;
+        width:500px;
+        border-radius:20px;
+        background-color:rgb(149, 201, 221);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    * {
+        font-weight:400;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       
+    }
+    .popup {
+      display: none;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #f8f9fa;
+      border: 1px solid #ced4da;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<!--Created by: Lesego Khunou (Front-End Developer)-->
+<body class="container">
+    <h1 class="mt-5">Generate User Greeting</h1>
+    <form id="greetingForm" class="mt-3">
+        <div class="form-group">
+            <label for="username">Enter your name:</label>
+            <input type="text" class="form-control col-6 col-md-6 col-sm-6" id="username" placeholder="Enter your name here">
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    </form>
+
+    <p id="greetingText" class="mt-3"></p>
+    <button id="showPopupBtn" class="btn btn-info mt-4 col-6 col-md-6 col-sm-6">Show Popup</button>
+
+    <div id="popup" class="popup">
+        <p>Created by: LESEGO KHUNOU (Front-End Developer)
+            Visit my GitHub to see more projects & Repo's<a href="https://github.com/LesegoKh?tab=repositories"> Visit My Github</a></p>
+        <button id="closePopupBtn" class="btn btn-secondary">Close</button>
+    </div>
+    <section>
+        <div class="col-12 col-md-12 col-sm-12 mt-4">
+        
+                <h6>DOM Manipulation Techniques Showcase</h6>
+                <p>This here uses arrays- Images are stored as an array!
+
+                    It uses functions - Timer Function for countdown & change title function!
+                    
+                    Variables are also used here & declared using "const"</p>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- External JS file -->
+  <script src="./script.js"></script>
+
+</body>
+<!--Created by: Lesego Khunou (Front-End Developer)-->
+</html>
+<!--Created by: Lesego Khunou (Front-End Developer)-->
